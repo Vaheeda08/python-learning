@@ -13,6 +13,9 @@ c = int(b)
 print(c)
 print(type(c))
 
+d = 223
+d_as_string = str(d)
+
 e = str(d)
 print(e)
 print(type(e))
@@ -20,3 +23,8 @@ print(type(e))
 example = "The value of a is " + str(a)
 print(example)
 print(type(example))
+
+x = "3.14"
+y = float(x)
+print(y)
+print(type(y))
