@@ -33,3 +33,15 @@ print(type(name))
 is_student = True # can also be False
 print(is_student)
 print(type(is_student))
+
+print(fruits)
+print(type(fruits))
+
+print(coordinates)
+print(type(coordinates))
+
+print(person)
+print(type(person))
+
+print(unique_numbers)
+print(type(unique_numbers))
