@@ -2,7 +2,7 @@
 
 age = 34 # integer
 name = "Vaheeda" # string
-cgpa = 4.55 # float
+cgpa = 8.3 # float
 
 # Rules for defining a variable in python:
 # 1. A variable name must start with a letter (a-z, A-Z) or an underscore (_).
@@ -11,9 +11,9 @@ cgpa = 4.55 # float
 # 4. Variable names are case-sensitive (age and Age are different variables).
 # Avoid using python reserved keywords as variable names (e.g., if, else, while, for, etc.)
 # Example of invalid variable names:
-# 1age = 30 # invalid because it starts with a number
-age = 30 # valid — variable NAME starts with a letter, VALUE can be a number ✅ 
-# 2name = "John" # invalid because it starts with a number
-# @age = 30 # invalid because it starts with a special character
+# 1age = 34 # invalid because it starts with a number
+age = 34 # valid — variable NAME starts with a letter, VALUE can be a number ✅ 
+# 2name = "Vaheeda" # invalid because it starts with a number
+# @age = 34 # invalid because it starts with a special character
 
 print(age, name, cgpa)
