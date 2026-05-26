@@ -11,11 +11,11 @@ is_student = True # boolean
 # 5. List (list): Represents an ordered collection of items that can be of different types.
 fruits = ["apple", "banana", "cherry"] # list
 # 6. Tuple (tuple): Represents an ordered collection of items that cannot be changed (immutable).
-coordinates = (10.0, 20.0) # tuple
+coordinates = (10.0, 20.0, 30.0) # tuple
 # 7. Dictionary (dict): Represents a collection of key-value pairs.
 person = {"name": "Alice", "age": 30, "city": "New York"} # dictionary
 # 8. Set (set): Represents an unordered collection of unique items.
-unique_numbers = {1, 2, 3, 4, 5} # set
+unique_numbers = {1, 2, 3, 4} # set
 # You can use the type() function to check the data type of a variable.
 
 age = 34
