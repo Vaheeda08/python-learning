@@ -31,4 +31,5 @@ print(name)
 print(type(name))
 
 is_student = True # can also be False
-print(is_completed)
+print(is_student)
+print(type(is_student))
