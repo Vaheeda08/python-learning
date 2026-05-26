@@ -1,4 +1,4 @@
-# In Python, variables are used to store data that can be used and manipulated throughout a program. Avariables is created the moment you assign a value to it using the assignment opertor (=)
+# In Python, variables are used to store data that can be used and manipulated throughout a program. A variables is created the moment you assign a value to it using the assignment opertor (=)
 
 age = 34 # integer
 name = "Vaheeda" # string
@@ -12,6 +12,8 @@ cgpa = 4.55 # float
 # Avoid using python reserved keywords as variable names (e.g., if, else, while, for, etc.)
 # Example of invalid variable names:
 # 1age = 30 # invalid because it starts with a number
-age = 30 # valid variable can start with number 
+age = 30 # valid — variable NAME starts with a letter, VALUE can be a number ✅ 
 # 2name = "John" # invalid because it starts with a number
 # @age = 30 # invalid because it starts with a special character
+
+print(age, name, cgpa)
