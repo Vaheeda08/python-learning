@@ -13,7 +13,7 @@ cgpa = 8.3 # float
 # Example of invalid variable names:
 # 1age = 34 # invalid because it starts with a number
 age = 34 # valid — variable NAME starts with a letter, VALUE can be a number ✅ 
-# 2name = "Vaheeda" # invalid because it starts with a number
+# 3name = "Vaheeda" # invalid because it starts with a number
 # @age = 34 # invalid because it starts with a special character
 
 print(age, name, cgpa)
