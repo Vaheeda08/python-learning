@@ -3,7 +3,7 @@
 # 1. Integer (int): Represents whole numbers without a decimal point.
 age = 34 # integer
 # 2. Float (float): Represents numbers with a decimal point.
-cgpa = 4.55 # float
+cgpa = 8.3 # float
 # 3. String (str): Represents a sequence of characters enclosed in quotes.
 name = "Vaheeda" # string
 # 4. Boolean (bool): Represents a value that can be either True or False.
@@ -18,7 +18,7 @@ person = {"name": "Alice", "age": 30, "city": "New York"} # dictionary
 unique_numbers = {1, 2, 3, 4, 5} # set
 # You can use the type() function to check the data type of a variable.
 
-age = 3
+age = 34
 print(age)
 print(type(age))
 
@@ -30,5 +30,5 @@ name = "Vaheeda"
 print(name)
 print(type(name))
 
-is_completed = True # can also be False
+is_student = True # can also be False
 print(is_completed)
