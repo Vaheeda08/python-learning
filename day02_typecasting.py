@@ -1,3 +1,6 @@
+# Day 02 - Typecasting in Python
+# Converting one data type to another
+
 a = 34
 b = "34"
 d = 223
