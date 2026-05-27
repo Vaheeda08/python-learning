@@ -2,7 +2,7 @@
 
 a = 34
 
-b = 5
+b = 6
 
 # Arithmetic Operators
 print("a + b = ", a + b)
@@ -23,7 +23,6 @@ print(a!=4) #Is a not equal to 4?
 
 # Logical Operators
 
-print(a>4) #Logical AND 
 c = True
 d = False
 print(c and d) #Logical AND
