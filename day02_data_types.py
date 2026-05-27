@@ -1,3 +1,5 @@
+# Day 02 - Data Types
+
 # Python supports various data types that allow you to store different kinds of information.
 # The most common data types in Python include: int, float, str, bool, list, tuple, dict, set
 # 1. Integer (int): Represents whole numbers without a decimal point.
