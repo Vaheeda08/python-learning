@@ -2,7 +2,7 @@
 
 a = input("Enter a number: ")  
 a = int(a)  # convert the string to an integer
-print(a + 3)
+print(a + 4)
 
 a = int(input("Enter a number: "))
 b = int(input("Enter another number: "))
