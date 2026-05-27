@@ -1,3 +1,8 @@
-print("Hey how are you?\nI am good\\newline")
+# Day 02 - Escape Sequences in Python
 
-print("Hello \" World")
+print("Hey how are you?\nI am good\\newline") # \n is used to create a new line and \\ is used to print a backslash
+
+print("Hello \" World") # \" is used to print double quotes
+
+print("Hello\tWorld")   # \t adds a tab space
+print("This is a backslash: \\")  # \\ prints a single backslash
