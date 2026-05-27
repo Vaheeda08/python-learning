@@ -1,4 +1,4 @@
-# In Python, Operators are used to perform operations on variables and values.
+# In Python, Condition are used to perform different actions based on different conditions.
 
 # if_statement
 
