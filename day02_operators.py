@@ -1,4 +1,5 @@
 # Day 02 - Operators in Python
+# In Python, Operators are used to perform operations on variables and values.
 
 a = 34
 
