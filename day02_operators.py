@@ -2,7 +2,7 @@
 
 a = 34
 
-b = 6
+b = 7
 
 # Arithmetic Operators
 print("a + b = ", a + b)
