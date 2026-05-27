@@ -1,3 +1,5 @@
+# Day 02 - Operators in Python
+
 a = 34
 
 b = 5
@@ -11,8 +13,8 @@ print("a % b = ", a % b)
 print("a // b = ", a // b)
 print("a ** b = ", a ** b)
 
-# Conditional Operators
-print(a>4)
+# Comparison Operators
+print(a>4) 
 print(a<4)
 print(a<=4)
 print(a>=4)
@@ -20,6 +22,8 @@ print(a==4) #Is a equal to 4?
 print(a!=4) #Is a not equal to 4?
 
 # Logical Operators
+
+print(a>4) #Logical AND 
 c = True
 d = False
 print(c and d) #Logical AND
