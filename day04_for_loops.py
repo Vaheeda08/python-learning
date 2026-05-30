@@ -5,6 +5,7 @@
 print(1)
 print(2)
 print(3)
+print(4)
 
 # This is a simple example of printing numbers from 1 to 3. However, if we want to print numbers from 1 to 100, it would be inefficient to write 100 print statements. Instead, we can use a loop.
 
