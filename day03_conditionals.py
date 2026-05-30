@@ -3,7 +3,7 @@
 
 # if_statement
 
-age = 12
+age = 13
 
 if(age>18):
     print("You are an adult.")
