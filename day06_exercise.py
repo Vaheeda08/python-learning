@@ -20,7 +20,7 @@ else:
 # Question 3
 age = int(input("Enter your age: "))
 
-if (age>=18):
+if age >= 18:
     print("You are eligible to vote.")
 
 else:
@@ -29,7 +29,7 @@ else:
 # Question 4
 num = int(input("Enter a number\n"))
 
-if(num%2==0):
+if num % 2 == 0:
     print("Even")
 
 else:
@@ -68,7 +68,7 @@ match operation:
     case "*":
         print(f"{num} * {num2} = {num * num2}")
     case "/":
-        if(num2!=0):
+        if num2 != 0:
             print(f"{num} / {num2} = {num / num2}")
         else:
             print("Cannot divide by zero.")
@@ -122,21 +122,24 @@ print("Access granted.")
 
 # Question 13
 num = 45222
-
-
 print(int(str(num)[::-1]))
 
 # Question 14
 for i in range(1, 11):
-    if (i == 7):
+    if i == 7:
         break
     print(i)
 
 # Question 15
 for i in range(1, 11):
-    if (i == 7):
+    if i == 7:
         continue
     print(i)
+
+# Question 17
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
 
 # Question 16
 for i in range(1, 11):
