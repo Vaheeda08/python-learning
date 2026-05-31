@@ -90,3 +90,17 @@ for i in range(1, 101):
     sum += i
 
 print("The sum of the first 100 natural numbers is:", sum)
+
+# Question 10
+'''
+Print the following pattern
+*
+**
+***
+****
+*****
+'''
+
+for i in range(1, 6):
+    print("*" * i)
+    
