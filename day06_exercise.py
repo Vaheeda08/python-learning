@@ -136,12 +136,12 @@ for i in range(1, 11):
         continue
     print(i)
 
-# Question 17
+# Question 16
 for i in range(1, 11):
     if i % 2 == 0:
         print(i)
 
-# Question 16
+# Question 17
 for i in range(1, 11):
     match i:
         case 1:
