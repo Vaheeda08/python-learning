@@ -103,4 +103,13 @@ Print the following pattern
 
 for i in range(1, 6):
     print("*" * i)
-    
+
+# Question 11
+sum = 0 
+i = 1
+
+while i <= 100:
+    sum += i
+    i += 1
+
+print(sum)    
