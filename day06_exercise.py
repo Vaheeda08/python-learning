@@ -1,9 +1,6 @@
 # Day 06 - Exercise
 
 # Question 1
-from re import match
-
-
 for i in range(1, 11):
     print(f"56 x {i:2} = {56 * i:3}")
 
@@ -11,10 +8,10 @@ for i in range(1, 11):
 num = int(input("Enter a number: "))
 print(num)
 
-if(num<0):
+if num < 0:
     print("Negative")
 
-elif(num>0):
+elif num > 0:
     print("Positive")
 
 else:
@@ -120,8 +117,7 @@ entered_password = input("Enter the password: ")
 
 while entered_password != password:
     print("Incorrect password. Try again.")
-
-entered_password = input("Enter the password: ")
+    entered_password = input("Enter the password: ")  # should be INSIDE loop
 print("Access granted.")
 
 # Question 13
