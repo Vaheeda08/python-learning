@@ -141,3 +141,13 @@ for i in range(1, 11):
     if (i == 7):
         continue
     print(i)
+
+# Question 16
+for i in range(1, 11):
+    match i:
+        case 1:
+            print("One")
+        case 2:
+            print("Two")
+        case 3:
+            print("Three")
