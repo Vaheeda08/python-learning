@@ -2,7 +2,6 @@
 
 # Question 1
 for i in range(1, 11):
-
     print(f"56 x {i:2} = {56 * i:3}")
 
 # Question 2
@@ -151,5 +150,5 @@ for i in range(1, 11):
             print("Two")
         case 3:
             print("Three")
-        case 4:
+        case _:
             print("others") #handle 4, 5, 6, 7, 8, 9, 10
