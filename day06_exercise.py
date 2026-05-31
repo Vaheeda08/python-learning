@@ -83,4 +83,10 @@ for i in range(1, 11):
 n = int(input("Enter a number: "))
 for i in range(1, 11):
     print(n, "x", i, "=", n*i)
-    
+
+# Question 9
+sum = 0
+for i in range(1, 101):
+    sum += i
+
+print("The sum of the first 100 natural numbers is:", sum)
