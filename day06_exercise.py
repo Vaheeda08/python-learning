@@ -122,3 +122,17 @@ while entered_password != password:
     print("Incorrect password. Try again.")
 
 entered_password = input("Enter the password: ")
+print("Access granted.")
+
+# Question 13
+num = 45222
+
+
+print(int(str(num)[::-1]))
+
+# Question 14
+for i in range(1, 11):
+    if (i == 7):
+        break
+    print(i)
+    
