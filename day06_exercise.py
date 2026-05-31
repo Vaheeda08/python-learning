@@ -75,3 +75,8 @@ match operation:
             print(f"{num} / {num2} = {num / num2}")
         else:
             print("Cannot divide by zero.")
+# Question 7
+for i in range(1, 11):
+        print(i)
+
+# Question 8
