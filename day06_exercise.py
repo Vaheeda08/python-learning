@@ -112,4 +112,13 @@ while i <= 100:
     sum += i
     i += 1
 
-print(sum)    
+print(sum)  
+
+# Question 12
+password = "Y2k123"
+entered_password = input("Enter the password: ")
+
+while entered_password != password:
+    print("Incorrect password. Try again.")
+
+entered_password = input("Enter the password: ")
