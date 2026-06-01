@@ -3,7 +3,7 @@
 
 a = 34
 b = "34"
-d = 224
+d = 225
 
 print(a)
 print(type(a))
