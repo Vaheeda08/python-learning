@@ -20,5 +20,5 @@ print(" ".join(words))  # Output: "Hello World"
 
 name = 'Vaheeda'
 name = "Vaheeda"
-name = '''Vaheeda'''
-print(name)  # Output: Vaheeda
+name = '''Vaheeda is a good girl'''
+print(name)  # Output: Vaheeda is a good girl
