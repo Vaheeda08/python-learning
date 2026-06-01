@@ -2,7 +2,6 @@
 # The break statement is used to exit a loop prematurely when a certain condition is met.
 
 for i in range(0, 21):
-    if i == 11:
+    if i == 21:
         break #Cancel the execution of this loop now
-    print(i) #print 0-10, stops before 11
-
+    print(i) #print 0-20, stops before 21 because of the break statement.
