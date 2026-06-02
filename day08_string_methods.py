@@ -10,12 +10,19 @@
 # 8. `join(iterable)`: Joins elements of an iterable (like a list) into a single string, using a specified separator.
 # Example usage of string methods:
 # Example string
-name = "Vaheeda" # Strings are immutable
+name = " Vaheeda Fatima " # Strings are immutable
 a = len(name)
-print(a) # Output: 7
-print(name.upper()) # Output: VAHEEDA
-print(name.lower()) # Output: vaheeda
-print(name.capitalize()) # Output: Vaheeda
-print(name.title()) # Output: Vaheeda
-print(name.strip()) # Output: Vaheeda
-print(name.replace("Vaheeda", "Fatima")) # Output: Fatima
+print(a) # Output: 13
+print(name.upper()) # Output: VAHEEDA FATIMA
+print(name.lower()) # Output: vaheeda fatima
+print(name.capitalize()) # Output: Vaheeda fatima
+print(name.title()) # Output: Vaheeda Fatima
+print(name.strip()) # Output: Vaheeda Fatima
+print(name.replace("Vaheeda", "Fatima")) # Output: Fatima Fatima
+print(name.split()) # Output: ['Vaheeda', 'Fatima']
+
+# Example of using join method
+words = ["Vaheeda", "Fatima"]
+joined_string = " ".join(words)
+print(joined_string) # Output: Vaheeda Fatima
+# These string methods can be used to manipulate and format strings in various ways, making it easier to work with text data in Python.
