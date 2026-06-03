@@ -34,3 +34,9 @@ if str1.isalnum():
     print("The string is alphanumeric.")
 else:
     print("The string is not alphanumeric.")
+
+# Question 7
+name = "Vaheeda"
+age = 30
+
+print(f"My name is {name} and I am {age} years old.")
