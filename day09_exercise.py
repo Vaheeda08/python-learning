@@ -50,11 +50,31 @@ print("My name is {} and I am {} years old.".format(name, age))
 
 # Question 9
 sentence = "Python is a great programming language."
-ind = sentence.index("Python")
-print(ind)
+new = sentence.replace("Python", "Java")
+print(new)
 
 # Question 10
 sentence = "Python is a great programming language."
-print(sentence.upper())
+ind = sentence.index("Python")
+print(ind)
 
 # Question 11
+sentence = "Python is a great programming language."
+print(sentence.upper())
+
+# Question 12
+sentence = "Python is a great programming language."
+sum = 0
+vowel = "aeiouAEIOU"
+for char in sentence.lower():
+    print(char)
+    if (char in vowel):
+        sum += 1
+print(f"There are {sum} vowels in the sentence.")
+
+# Question 13
+string1 = "madam"
+if(string1 == string1[::-1]):
+    print("The string is a palindrome.")
+else:
+    print("The string is not a palindrome.")
