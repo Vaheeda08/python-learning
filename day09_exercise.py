@@ -27,3 +27,10 @@ text = " i love python programming "
 print(text.strip())
 print(text.title())
 print(text.count("o"))
+
+# Question 6
+str1 = "123abc"
+if str1.isalnum():
+    print("The string is alphanumeric.")
+else:
+    print("The string is not alphanumeric.")
