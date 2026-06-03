@@ -13,3 +13,6 @@ print(str1 + " " + str2)
 print(str1,str2)
 
 # Question 3
+test = "Python Programming"
+print(test[0:6])
+print(test[-6:6])
