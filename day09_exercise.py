@@ -22,3 +22,8 @@ print(test[::2])
 text = "Python Programming"
 print(text[::-1])
 
+# Question 5
+text = " i love python programming "
+print(text.strip())
+print(text.title())
+print(text.count("o"))
