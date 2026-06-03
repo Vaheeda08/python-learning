@@ -1,6 +1,9 @@
 # Day 09 - Exercise
 
 # Question 1
+from operator import index
+
+
 name = "Vaheeda"
 print(name[0])
 print(name[-1])
@@ -47,5 +50,11 @@ print("My name is {} and I am {} years old.".format(name, age))
 
 # Question 9
 sentence = "Python is a great programming language."
-new = sentence.replace("Python", "Java")
-print(new)
+ind = sentence.index("Python")
+print(ind)
+
+# Question 10
+sentence = "Python is a great programming language."
+print(sentence.upper())
+
+# Question 11
