@@ -16,3 +16,5 @@ s1 = template.format(name=a, amount=a1)
 print(s1)
 
 print(f"Dear {a}, You are awesome. Take this {a1} bag of money as a gift from me. Best, Your friend")
+print(f"Dear {b}, You are awesome. Take this {b1} bag of money as a gift from me. Best, Your friend")
+print(f"Dear {c}, You are awesome. Take this {c1} bag of money as a gift from me. Best, Your friend")
