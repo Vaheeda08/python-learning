@@ -16,3 +16,9 @@ print(str1,str2)
 test = "Python Programming"
 print(test[0:6])
 print(test[-6:6])
+print(test[::2])
+
+# Question 4
+text = "Python Programming"
+print(text[::-1])
+
