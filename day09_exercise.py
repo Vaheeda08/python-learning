@@ -38,5 +38,14 @@ else:
 # Question 7
 name = "Vaheeda"
 age = 30
-
 print(f"My name is {name} and I am {age} years old.")
+
+# Question 8
+name = "Vaheeda"
+age = 30
+print("My name is {} and I am {} years old.".format(name, age))
+
+# Question 9
+sentence = "Python is a great programming language."
+new = sentence.replace("Python", "Java")
+print(new)
