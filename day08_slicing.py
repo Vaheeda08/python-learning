@@ -13,7 +13,7 @@ print(name[0:10:1])  # step 1 = every character, Output: Vaheeda
 print(name[0:10:2])  # step 2 = skip 1 character, Output: Vhea
 print(name[0:10:3])  # step 3 = skip 2 characters, Output: Vae
 
-print(name[:4]) # Replace the first empty number with 0, Output: Vahe
+print(name[:5]) # Replace the first empty number with 0, Output: Vahe
 print(name[1:5]) # Replace the second empty number with the length #name[1:5], Output: aheed
 
 print(name[::-1]) # Reverse the string, Output: adeehaV
