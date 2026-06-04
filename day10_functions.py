@@ -18,7 +18,7 @@ print(average1)
 
 def average(x, y, z):
     d = (x + y + z) /3.0
-    print(d)
+    return d
 
 o1 = average(3, 5, 1)
 o2 = average(4, 2, 1)
