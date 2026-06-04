@@ -1,4 +1,4 @@
-# Day 10 = Function Arguments
+# Day 10 - Function Arguments
 # In Python, there are several types of function arguments that you can use to make your functions more flexible and versatile. The main types of function arguments are:
 
 # 1. Positional Arguments
