@@ -15,3 +15,9 @@ c1 = 12
 
 average1 = (a1 + b1 + c1) / 3
 print(average1)
+
+def average(x, y, z):
+    d = (x + y + z) /3.0
+    print(d)
+
+average(3, 5, 1)
