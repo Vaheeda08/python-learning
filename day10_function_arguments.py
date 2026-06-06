@@ -5,6 +5,7 @@
 
 def add(x, y, plus=0):
     return x + y + plus
+
 result = add(3, 5)
 print(result)
 
