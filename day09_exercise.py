@@ -1,9 +1,6 @@
 # Day 09 - Exercise
 
 # Question 1
-from operator import index
-
-
 name = "Vaheeda"
 print(name[0])
 print(name[-1])
@@ -18,7 +15,7 @@ print(str1,str2)
 # Question 3
 test = "Python Programming"
 print(test[0:6])
-print(test[-6:6])
+print(test[-6:-1])
 print(test[::2])
 
 # Question 4
@@ -67,8 +64,7 @@ sentence = "Python is a great programming language."
 sum = 0
 vowel = "aeiouAEIOU"
 for char in sentence.lower():
-    print(char)
-    if (char in vowel):
+    if char in vowel:
         sum += 1
 print(f"There are {sum} vowels in the sentence.")
 
