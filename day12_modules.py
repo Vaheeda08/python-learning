@@ -7,6 +7,7 @@
 # To import a module, you can use the import statement. For example, to import the math module, you can do:
 
 import math
+import os
 
 print(math.sqrt(16))  # Output: 4.0
 
