@@ -21,7 +21,7 @@ print(name.strip()) # Output: Vaheeda Fatima
 print(name.replace("Vaheeda", "Fatima")) # Output:  Fatima Fatima
 print(name.split()) # Output: ['Vaheeda', 'Fatima']
 
-name = " Vaheeda Fatima "
+# just continue using same variable name to show the effect of string methods
 print(name.strip()) # Output: Vaheeda Fatima
 print(name.lstrip()) # Output: Vaheeda Fatima
 print(name.rstrip()) # Output:  Vaheeda Fatima
