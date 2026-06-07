@@ -1,4 +1,5 @@
 # Day 13 - Docstrings
+# Docstrings are a special type of string that is used to document a function, class, or module. They are enclosed in triple quotes (""" """) and are placed immediately after the function, class, or module definition.
 
 def sum(a, b):
     """
@@ -17,3 +18,4 @@ def sum(a, b):
     return c
 
 print(sum.__doc__)
+print(sum(2, 3)) # Output: 5
