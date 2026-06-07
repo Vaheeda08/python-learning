@@ -7,9 +7,18 @@
 # To import a module, you can use the import statement. For example, to import the math module, you can do:
 
 import math
-import os
 
 print(math.sqrt(16))  # Output: 4.0
 
 from math import sqrt
 print(sqrt(25))  # Output: 5.0
+
+import random
+print(random.randint(1, 10))  # random number between 1-10
+
+import datetime
+print(datetime.datetime.now())  # current date and time
+
+print(math.pi)    # Output: 3.14159...
+print(math.floor(4.7))  # Output: 4
+print(math.ceil(4.2))   # Output: 5
