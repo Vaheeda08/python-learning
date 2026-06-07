@@ -5,7 +5,7 @@
 def sum(a, b):
     print("Hey I am summing")
     c = a + b
-    global z #Please modify global z
+    global z # tells Python that we want to use the global variable z instead of creating a local variable z
     z = 0 # This will refer to global z and not create a local variable z
     return c
 
