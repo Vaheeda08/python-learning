@@ -5,3 +5,5 @@ def greet():
     print("Hello, Python Learner!")
 
 greet()
+
+# Question 2
