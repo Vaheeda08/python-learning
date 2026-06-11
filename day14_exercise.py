@@ -7,3 +7,5 @@ def greet():
 greet()
 
 # Question 2
+def greet():
+    print("hello") 
