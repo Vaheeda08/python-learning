@@ -54,4 +54,32 @@ print(factorial(0))
 
 # Question 8
 
-8:18
+def sum_of_digits(n):
+    if n == 0:
+        return 0
+    
+    return n%10 + sum_of_digits(n//10)
+
+# Question 9
+import math 
+
+a = math.sqrt(144)
+b = math.sin(math.radians(90))
+print(a, b)
+
+# Question 10
+def increment():
+    counter = 0
+    counter +=1
+    print(counter)
+
+increment()
+increment()
+
+# Question 11
+def multiply(a, b):
+    '''
+    Multiply function
+    '''
+    return a * b
+print(multiply(5, 3)) 
