@@ -70,7 +70,7 @@ print(a, b)
 # Question 10
 def increment():
     counter = 0
-    counter +=1
+    counter +=2
     print(counter)
 
 increment()
