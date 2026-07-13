@@ -10,5 +10,5 @@ def sum(a, b):
     return c
 
 z = 3
-print(sum(3, 12))
+print(sum(2, 12))
 print(z) # This will print 0 because we modified the global variable z in the sum function
