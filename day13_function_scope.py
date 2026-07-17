@@ -12,7 +12,7 @@ def greet():
     print("Hello, World!")
 
 z = 8 # z is a global variable
-print(sum(4, 6))
+print(sum(4, 8))
 print(z) # This will print 8 because z is defined in the global scope
 
 greet()  # add this at the bottom
